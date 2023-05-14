@@ -1,0 +1,76 @@
+.App {
+  font-family: sans-serif;
+  text-align: center;
+}
+
+.emailCard {
+  border: 1px solid black;
+  border-radius: 5px;
+  padding: 5px;
+  margin: 5px;
+}
+
+.emailHeader {
+  display: flex;
+  justify-content: space-between;
+}
+
+.emailContent {
+  text-align: left;
+  margin: 5px;
+}
+
+.emailFooter {
+  display: flex;
+  justify-content: space-between;
+  margin: 5px;
+}
+
+.btn-star {
+  background-color: white;
+  border: none;
+  font-size: 15px;
+}
+
+.btn-delete {
+  color: red;
+  margin: 5px;
+  border: none;
+  background-color: white;
+}
+
+.btn-spam {
+  color: orange;
+  margin: 5px;
+  border: none;
+  background-color: white;
+}
+
+.btn-read {
+  color: green;
+  margin: 5px;
+  border: none;
+  background-color: white;
+}
+
+.emailFooterLink {
+  text-decoration: none;
+}
+
+nav {
+  display: flex;
+  width: 100%;
+  margin: auto;
+  justify-content: space-around;
+}
+
+.navName {
+  text-decoration: none;
+  font-size: 18px;
+}
+
+.filterCard {
+  border: 1px solid black;
+  margin: 10px;
+  padding: 10px;
+}
